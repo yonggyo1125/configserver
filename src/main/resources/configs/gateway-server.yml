@@ -31,7 +31,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: ${eurekaHost}/eureka/
+      defaultZone: http://localhost:3101/eureka/
 
 # 액츄에이터 설정
 management:
