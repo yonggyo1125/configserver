@@ -35,6 +35,8 @@ logging:
 
 # 유레카 설정
 eureka:
+  instance:
+    hostname: ${hostname}
   #instance:
     #preferIpAddress: true
   client:
