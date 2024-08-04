@@ -52,6 +52,7 @@ file:
 eureka:
   instance:
     preferIpAddress: true
+    ipAddr: 43.202.185.244
   client:
     registerWithEureka: true
     fetchRegistry: true
