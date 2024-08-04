@@ -50,9 +50,8 @@ file:
 
 # 유레카 설정
 eureka:
-  instance:
-    preferIpAddress: true
-    ipAddr: 43.202.185.244
+  #instance:
+    #preferIpAddress: true
   client:
     registerWithEureka: true
     fetchRegistry: true

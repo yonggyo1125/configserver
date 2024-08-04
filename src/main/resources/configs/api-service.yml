@@ -35,9 +35,8 @@ logging:
 
 # 유레카 설정
 eureka:
-  instance:
-    preferIpAddress: true
-    ipAddr: 15.164.247.58
+  #instance:
+    #preferIpAddress: true
   client:
     registerWithEureka: true
     fetchRegistry: true
